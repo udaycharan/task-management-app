@@ -1,0 +1,40 @@
+[
+    {
+      "EMP-ID": "01",
+      "user": {
+        "name": "arvinth@gmail.com",
+        "role": "Admin"
+      },
+  
+      "password": 123
+    },
+  
+    {
+      "EMP-ID": "02",
+      "user": {
+        "name": "rajeshwari@gmail.com",
+        "role": "Admin"
+      },
+  
+      "password": 1234
+    },
+  
+    {
+      "EMP-ID":"03",
+      "user": {
+        "name": "uday@gmail.com",
+        "role": "Engineer"
+      },
+      "password": 12345
+    },
+
+    {
+      "EMP-ID":"04",
+      "user": {
+        "name": "john@gmail.com",
+        "role": "Engineer"
+      },
+      "password": 123456
+    }
+  ]
+  

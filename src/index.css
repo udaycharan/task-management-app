@@ -1,0 +1,223 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+
+.App {
+  text-align: center;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: small;
+}
+.header-style {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #1f3044;
+  width: 100%;
+  height: 10vh;
+}
+h3 {
+  font-size: x-large;
+  color: #fb9039;
+  margin-right: 6rem;
+}
+
+h2 {
+  color: white;
+  font-weight: 700;
+  font-size: x-large;
+  margin-left: 3rem;
+}
+h1{
+  font-size: 2rem;
+  font-weight: 900;
+}
+h4{
+  font-weight: 900;
+  color: #fff;
+  background: #1f3044;
+  width: 100%;
+  margin: 0;
+  padding: 1rem;
+  float: left;
+  
+}
+
+
+.form-container {
+  border: 2px solid #1f3044;
+  border-radius: 1.5rem;
+  padding-bottom: 1rem;
+  margin: 5rem auto;
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 2px#8c96a58a;
+}
+
+.credentials-box {
+  margin-top: .6rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+select {
+  cursor: pointer;
+  margin-top: 4rem;
+  padding: 0.5rem;
+  outline: none;
+}
+select[value] {
+  padding: 0.5rem;
+}
+
+input {
+  width: 100%;
+  margin: 0.5rem;
+  padding: 0.7rem;
+  border-radius: 0.2rem;
+  border: 1px solid #93989ead;
+}
+
+input:focus {
+  outline: 2px double #8bc1ff;
+  box-shadow: 1px 2px 13px #8bc1ff;
+}
+
+#btn-style {
+  cursor: pointer;
+  color: white;
+  padding: 0.7rem 0 0.7rem 0;
+  border-radius: 0.3rem;
+  width: 100%;
+  border: none;
+  background: #1f3044;
+}
+
+#btn-style:hover {
+  background: #1e466ee3;
+  transition: color 0.5s ease;
+}
+
+.ticket-form{
+  width: 60%;
+  box-sizing: border-box;
+  height: 60%;
+  background-color: #f3f3f0d2;
+  padding:1.5rem 3rem;
+  border: 2px solid #93989ead;
+  border-radius: 5px;
+  margin-top: 4rem;
+  
+}
+
+.rbc-day-bg:hover{
+  background-color: #d9f3f396;
+}
+
+
+#task{
+  margin-top: 1.5rem;
+  padding: 0.7rem;
+  border-radius: 0.3rem;
+  border: 1px solid #93989ead;
+
+}
+
+#task:focus{
+  outline: 2px double #8bc1ff;
+  box-shadow: 1px 2px 13px #8bc1ff;
+}
+
+#task-description{
+  width: 100%;
+  margin: 1rem 0 0 1rem;
+  border-radius: 0.3rem;
+  border: 1px solid #93989ead;
+
+}
+#task-description:focus{
+  outline: 2px double #8bc1ff;
+  box-shadow: 1px 2px 13px #8bc1ff;
+}
+
+#create-btn{
+  cursor: pointer;
+  border: none;
+  background-color: #283f5ac7;
+  border-radius: .3rem;
+  padding: .4rem;
+  margin: 1rem;
+  color: white;
+
+}
+
+#create-btn:hover{
+  background-color: #1f3044;
+  transition: all .2s ease-in-out;
+}
+
+#del-btn{
+  cursor: pointer;
+  border: 1px solid #1f3044;
+  background-color: rgb(226, 226, 214);
+  border-radius: .3rem;
+  padding: 0.3rem .5rem;
+  color:#1f3044;
+}
+.admin-view{
+  cursor: pointer;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: row;
+ 
+}
+
+#input-date{
+  height: fit-content;
+  width: 45%;
+}
+
+@media screen and (max-width: 992px) {
+  .form-container {
+    min-width: 60%;
+    height: auto;
+  }
+
+  .credentials-box {
+    width: auto;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  h3 {
+    margin: 0;
+  }
+
+  h2 {
+    margin: 0;
+  }
+  select {
+    padding: 0.3rem;
+  }
+
+  select[value] {
+    padding: 0.2rem;
+  }
+
+}

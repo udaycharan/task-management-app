@@ -44,6 +44,7 @@ function AdminTaskList(props){
             alert("These feilds cannot be empty!!");
         }
     }
+    
      localStorage.setItem("adminData", JSON.stringify(props.adminTaskList));
 
    

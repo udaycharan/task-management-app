@@ -2,11 +2,10 @@ import "./index.css";
 import Login from "./LoginForm";
 import Admin from "./Admin";
 import Engineer from "./Engineer";
-
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 
-function App(props) {
+function App() {
   return (
     <div className="App">
       <Router>

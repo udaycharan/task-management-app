@@ -9,6 +9,7 @@ import getDay from "date-fns/getDay";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 
 
+
 const locales = {
   "en-IN": require("date-fns/locale/en-IN") 
 };
@@ -28,6 +29,7 @@ function Admin() {
 
   const [adminTaskList, setAdminTaskList] = useState([]);
   const [isGridClicked, setClickHandler]  = useState(false);
+  
 
   let myEventsList =[];
 
@@ -45,10 +47,11 @@ const getEvents=()=>{
   
   }
   
-
+  localStorage.setItem("eventData", JSON.stringify(myEventsList));
 }
 getEvents();
-localStorage.setItem("eventData", JSON.stringify(myEventsList));
+
+
 
 const handleChange= (event)=>{
 

@@ -2,7 +2,8 @@
     {
       "EMP-ID": "01",
       "user": {
-        "name": "arvinth@gmail.com",
+        "email": "arvinth@gmail.com",
+        "name": "Arvinth",
         "role": "Admin"
       },
   
@@ -12,7 +13,8 @@
     {
       "EMP-ID": "02",
       "user": {
-        "name": "rajeshwari@gmail.com",
+        "mail": "rajeshwari@gmail.com",
+        "name": "rajeshwari",
         "role": "Admin"
       },
   
@@ -22,7 +24,8 @@
     {
       "EMP-ID":"03",
       "user": {
-        "name": "uday@gmail.com",
+        "email": "uday@gmail.com",
+        "name": "uday",
         "role": "Engineer"
       },
       "password": 12345
@@ -31,7 +34,8 @@
     {
       "EMP-ID":"04",
       "user": {
-        "name": "john@gmail.com",
+        "email": "john@gmail.com",
+        "name": "John",
         "role": "Engineer"
       },
       "password": 123456
